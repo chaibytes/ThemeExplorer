@@ -9,7 +9,8 @@
                 style="?textLarge"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/settings_text_select_theme" />
+                android:text="@string/settings_text_select_theme"
+                android:textColor="@color/textheader"/>
 
         <Spinner
                 android:id="@+id/spThemes"
@@ -66,7 +67,8 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/rlCredentials"
                 android:text="@string/settings_text_sync_automatically"
-                android:textSize="17sp" />
+                android:textSize="17sp"
+                android:textColor="@color/text"/>
 
         <CheckBox
                 android:id="@+id/checkbox_sync_automatically"
@@ -92,10 +94,10 @@
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@+id/tvLocation"
                 android:layout_alignParentRight="true"
-                android:layout_toRightOf="@+id/tvLocation"
                 android:switchTextAppearance="@style/switch_text_appearance"
                 android:textOff="@string/settings_text_state_off"
-                android:textOn="@string/settings_text_state_on" />
+                android:textOn="@string/settings_text_state_on"
+                />
 
         <Button
                 android:id="@+id/btnClearData"
@@ -105,6 +107,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="@dimen/view_margin"
-                android:text="@string/settings_text_clear_data" />
+                android:text="@string/settings_text_clear_data"
+                android:textColor="@color/textheader"/>
 
 </RelativeLayout>

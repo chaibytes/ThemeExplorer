@@ -55,7 +55,7 @@
     </style>
 
     <style name="white_background_wh">
-        <item name="android:background">@android:drawable/dialog_holo_light_frame</item>
+        <item name="android:background">@color/accent</item>
         <item name="android:layout_marginTop">@dimen/card_margin_top</item>
         <item name="android:layout_marginBottom">@dimen/card_margin_top</item>
         <item name="android:padding">@dimen/white_background_padding</item>
@@ -77,13 +77,17 @@
     <color name="actionbar_bg_wh">#AFAFAF</color>
 
     <style name="action_bar_wh" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@color/actionbar_bg_wh</item>
-        <item name="background">@color/actionbar_bg_wh</item>
+        <item name="android:background">@color/orange</item>
+        <item name="background">@color/orange</item>
     </style>
 
     <!-- =============================================================== -->
     <!-- Customize YOUR_CUSTOM_THEME Styles -->
     <!-- Define your own styles below. -->
     <!-- =============================================================== -->
+
+
+
+
 
 </resources>
